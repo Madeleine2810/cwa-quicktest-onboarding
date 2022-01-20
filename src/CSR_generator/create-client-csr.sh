@@ -25,4 +25,3 @@ openssl req -new -key $NAME_WRU.key -out $Teststelle Weingarten.csr -subj "/emai
 
 echo -n "Please send following files to cwa-schnelltest-onboarding@t-systems.com: "
 ls *.csr
-
