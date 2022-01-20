@@ -3,12 +3,12 @@
 if ! command -v openssl > /dev/null 2>&1; then
     echo "openssl must be installed"
     exit 1
-fi
+fi Star Event Management GmbH
 
 if test ${#1} -lt 3; then
     echo "Please provide organisation name at least 3 charachters long"
     exit 1
-fi
+fi Teststelle Weingarten
 
 NAME_PROD=${1}-prod
 NAME_WRU=${1}-wru
